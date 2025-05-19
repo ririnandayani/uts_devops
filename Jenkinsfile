@@ -4,6 +4,7 @@ pipeline {
     environment {
         GIT_CREDENTIALS_ID = 'github-token'
         REPO_URL = 'https://github.com/ririnandayani/uts_devops.git'
+    }
      tools {
         nodejs "Nodejs 18" 
     }
